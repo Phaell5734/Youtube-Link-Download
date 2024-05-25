@@ -1,0 +1,114 @@
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+    
+  }
+  
+  #map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+
+  body
+    {
+        background-color: white !important;
+    }
+
+    .btn-primary {
+        background-color: #fde24f !important; 
+        color: #000000 !important;
+        border-color: rgb(255, 255, 255) !important;
+      }
+
+      .btn-primary.active,
+      .btn-primary:active,
+      .show>.btn-primary.dropdown-toggle {
+        background-color: #00214d !important; 
+        color: #ffffff !important;
+      }
+
+      .SendMeAll{
+        background-color: #fde24f;
+      }
+
+      .SendMail{
+        color: #000000 !important;
+      }
+
+      h1{
+        line-height: 1.6 !important;
+        color: #000000 !important;
+        text-align: center !important;
+      }
+
+      .btn-secondary {
+        background-color: #00ebc7 !important;
+        color:#000000 !important;
+        font-weight: 500 !important;
+      }
+
+      .NavbarOfOurs{
+        background-color: #000000;
+      }
+
+      .LastPart{
+        background-color: #000000;
+      }
+
+      .Footer
+      {
+        background-color: #000000;
+      }
+
+      .WorkCards{
+        background-color: #e4ebf3 !important; 
+        color: #000000 !important;
+        height: 100% !important;
+        justify-content: center !important;
+        
+        display: flex !important;
+        margin: 0 auto !important;
+        border-radius: 15px !important;
+        padding : 10px ;
+        margin-bottom: 50px !important;
+
+        font-size: large;
+      }
+
+     .btn-info{
+      background-color: #ff5470 !important; 
+        color: #ffffff !important;
+        border-color: rgb(255, 255, 255) !important;
+        font-weight: 500 !important;
+        font-size: large !important;
+        
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+
+        border-radius: 15px !important;
+      
+     }
+
+      .card-body{
+        height: 40% !important;
+        font-weight: 500 !important;
+        font-size: 20px !important;
+      }
+
+      .FixedSize{
+        height: 85px;
+        width: 85px;
+        border-radius: 15px;
+      }
+
